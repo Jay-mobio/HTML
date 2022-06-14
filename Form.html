@@ -10,8 +10,8 @@
             <h2>Place order</h2>
             <form method="GET" action="place-order.php">
                 <h4>Delivery</h4>
-                <input name="delivery" type="radio" value="delivery" />delivery<br />
-                <input name="delivery" type="radio" value="pickup" />pickup<br />
+                <input name="deliveryMethod" type="radio" value="delivery" />delivery<br />
+                <input name="deliveryMethod" type="radio" value="pickup" />pickup<br />
 
 
                 <h4>Address</h4>
@@ -22,10 +22,20 @@
                 <input name="zipcode" placehorlder="zipcode" class="sm-input"/>
                 <br />
                 <br />
+                <h4>Size</h4>\
+                <select name="size">
+                    <option value="12">12" - 500</option>
+                    <option value="16">16" - 1000</option>
+                    <option value="18">18" - 1500</option>
+
+
+
+                </select>
                 <h4>Ingridients</h4>
-                <input name="pepperoni" type="checkbox"/>pepperoni<br />
-                <input name="salami" type="checkbox"/>salami<br />
-                <input name="bacon" type="checkbox"/>bacon<br />
+                <input name="Indigridents" type="checkbox" value="pepperoni"/>pepperoni<br />
+                <input name="Indigridents" type="checkbox" value="salami"/>salami<br />
+                <input name="Indigridents" type="checkbox" value="bacon"/>bacon<br />
+                <button type="submit">Place order</button>
 
 
             </form>
