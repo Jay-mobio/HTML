@@ -1,0 +1,17 @@
+@import url(link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet");
+
+body {
+    font-family:'Kdam Thmor Pro' , sans-serif;
+    font-weight:300;
+    margin:0px;
+
+}
+
+body h1 {
+    font-weight:300
+    margin:0px;
+
+}
+#main-header {
+    border: 1px dotted #000; 
+}
